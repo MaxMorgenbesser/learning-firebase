@@ -15,4 +15,4 @@ const car = {
     color:'Blue'
 }
 
-db.collection('cars')
+db.collection('cars').add(car)
